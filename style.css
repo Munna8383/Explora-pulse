@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    background: #FFF;
+}
+
+/*Header Designs*/
+
+header{
+    width: 100%;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.nav-heading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-heading h1{
+color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+
+}
+.menu-icon{
+    display: none;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-list ul{
+    list-style: none;
+}
+.nav-list ul a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+/*Main Section Design*/
+
+main{
+    width:100%;
+    margin-top: 40px;
+}
+
+
+
+/*Explore Section Design*/
+
+.explore{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(./Images/group13.png);
+    background-blend-mode: multiply;
+    background-color: #93939d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.explore-content{
+    padding: 120px 150px;
+    text-align: center;
+}
+.explore-content h1{
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.explore-content p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+.inputs{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+.inputs input{
+    width: 25%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+}
+input placeholder{
+   color: rgba(19, 19, 24, 0.5);
+}
+.inputs button{
+    border: none;
+    width: 25%;
+    border-radius: 8px;
+    background: #FF5400;
+    outline: none;
+    padding: 12px 25px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+/*Popular Section Design */
+
+.popular{
+    width: 100%;
+}
+.popular-container{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.popular-text{
+    width: 45% ;
+}
+.popular-text h1{
+color: #131318;
+font-family: Mulish;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.popular-text p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.popular-text ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.popular-button{
+    border: none;
+    width: 25%;
+    border-radius: 8px;
+    background: #FF5400;
+    outline: none;
+    padding: 12px 10px;
+    color: #FFF;
+    font-weight: 400;
+}
+.popular-image{
+
+    width: 50%;
+
+}
+.popular-image img{
+    width: 100%;
+}
+
+
+/*Newsletter Section Design*/
+.newsletter-section{
+    width: 100%;
+}
+.newsletter{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter-main{
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FF5400;
+}
+.newsletter-form{
+    width: 80%;
+    margin: 18% auto;
+}
+.newsletter-form h1{
+    color: #131318;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.newsletter-form p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.newsletter-form input{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px 60px;
+    background: rgba(122, 122, 134, 0.05);
+}
+.newsletter-form button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 500;
+    padding: 10px 110px;
+
+}
+.newsletter-picture{
+    width: 60%;
+    position: relative;
+}
+.newsletter-picture img{
+    width: 100%;
+}
+.save{
+    width: 300px;
+    transform: rotate(-40deg);
+    height: 70px;
+    background-color: #FF5400;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    right: -3px;
+}
+
+/*Footer Design*/
+
+.footer{
+    width: 100%;
+    background: rgba(137, 132, 132, 0.15);
+    margin-top: 40px;
+    padding: 20px;
+}
+.footer-container{
+    width: 90%;
+    margin: 50px auto 0;
+}
+.footer-heading{
+    display: flex;
+    gap: 10px;
+   width: 25%;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+
+.footer-description{
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    width: 24%;
+    margin: 30px auto 30px;
+}
+.footer p{
+     text-align: center;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-links p i{
+    color: rgba(19, 19, 24, 1);
+    font-size: 2.5rem;
+}
+.footer-last{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+@media screen and (max-width:600px){
+    .nav-list ul{
+        display: none;
+    }
+
+    .menu-icon{
+
+        display: block;
+        font-size: 2rem;
+        align-items: center;
+        
+    }
+
+    .explore-content{
+        padding: 15px 20px;
+    }
+    .inputs{
+        flex-direction: column;
+        gap: 30px;
+        width: 70%;
+    }
+    .inputs input{
+        width: 100%;
+        text-align: center;
+    }
+    .inputs button{
+        width: 100%;
+    }
+    .popular-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .popular-text{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .popular-image{
+        width: 100%;
+    }
+    .popular-image img{
+      width: 100%;
+    }
+
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-main{
+        width: 90%;
+        text-align: center;
+    }
+    .newsletter-picture{
+        width: 90%;
+    }
+    .save{
+        width: 200px;
+        height: 60px;
+    }
+     .footer-heading{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+     }
+    .footer-links{
+        width:37%;
+        margin: 30px auto 30px;
+    }
+
+}
