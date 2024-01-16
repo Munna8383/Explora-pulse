@@ -592,6 +592,7 @@ padding: 40px 10px;
 }
 
 
+
 .footer-description{
     text-align: center;
 }
@@ -817,11 +818,14 @@ padding: 40px 10px;
         height: 400px;
     }
      .footer-heading{
-        width: 60%;
+        width: 65%;
         margin: 0 auto;
         margin-bottom: 20px;
         margin-top: 10px;
      }
+     .footer-image img{
+        width: 100%;
+    }
     .footer-links{
         width: 47%;
         margin: 30px auto 30px;
