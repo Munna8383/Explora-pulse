@@ -158,6 +158,7 @@ margin-bottom: 30px;
     font-style: normal;
     font-weight: 400;
     margin-bottom: 20px;
+    margin-left: 30px;
 
 }
 .popular-button{
@@ -215,9 +216,28 @@ font-weight: 400;
 }
 .first-row-image-one{
     width: 49%;
+    position: relative;
+}
+.first-row-image-one h1{
+    position: absolute;
+    bottom: 110px;
+    left: 180px;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 .first-row-image-two{
     width: 49%;
+    position: relative;
+}
+.first-row-image-two h1{
+    position: absolute;
+    bottom: 110px;
+    left: 170px;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+
 }
 .first-row-image-one img{
     width: 100%;
@@ -235,6 +255,17 @@ font-weight: 400;
 .second-row-image-one{
 
     width: 29%;
+    position: relative;
+}
+.second-row-image-one h1{
+
+    position: absolute;
+    bottom: 110px;
+    left: 70px;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+
 }
 
 .second-row-image-one img{
@@ -245,7 +276,16 @@ font-weight: 400;
 .second-row-image-two{
 
     width: 39% ;
+    position: relative;
 
+}
+.second-row-image-two h1{
+    position: absolute;
+    bottom: 110px;
+    left: 130px;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
 }
 .second-row-image-two img{
     width: 100%;
@@ -255,6 +295,18 @@ font-weight: 400;
 .second-row-image-three{
 
     width: 29%;
+    position: relative;
+
+}
+.second-row-image-three h1{
+
+     position: absolute;
+    bottom: 110px;
+    left: 70px;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700; 
+    
 
 }
 .second-row-image-three img{
@@ -269,9 +321,31 @@ font-weight: 400;
 }
 .third-row-image-one{
     width: 39%;
+    position: relative;
+}
+.third-row-image-one h1{
+
+    position: absolute;
+    bottom: 160px;
+    left: 80px;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700; 
+
 }
 .third-row-image-two{
     width: 60%;
+    position: relative;
+}
+.third-row-image-two h1{
+
+    position: absolute;
+    bottom: 140px;
+    left: 230px;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700; 
+
 }
 .third-row-image-one img{
     width: 100%;
@@ -283,8 +357,100 @@ font-weight: 400;
 }
 
 
+/*Choose Section Design */
 
+.choose{
+    width: 100%;
+    
+}
+.choose-main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.choose-heading{
 
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.choose-heading h1{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.choose-heading p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.choose-first-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.choose-first-child{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 40px 10px;
+}
+
+.choose-second-child{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 40px 10px;
+}
+.choose-first-child p i,.choose-second-child p i{
+    font-size: 2rem;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin-bottom: 10px;
+}
+.choose-first-child h1 ,.choose-second-child h1{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.choose-first-child p, .choose-second-child p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.choose-second-row{
+    width: 60%;
+    margin: 10px auto 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 40px 10px;
+}
+.choose-second-row h1{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.choose-second-row p i{
+    font-size: 2rem;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin-bottom: 10px;
+
+}
+.choose-second-row p{
+
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
 
 
 
@@ -358,6 +524,51 @@ font-weight: 400;
     position: absolute;
     bottom: 90px;
     right: -3px;
+}
+
+/*Extra Section Design*/
+.extra{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.extra-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.extra-content{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 10px;
+    align-items: center;
+}
+.extra-one{
+    padding: 40px 40px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+}
+.extra-one:hover{
+    transform: scale(0.9);
+    background-color: azure;
+}
+.extra-one h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.extra-one img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.extra-one p i{
+
+    color: gold;
+
 }
 
 /*Footer Design*/
@@ -546,6 +757,36 @@ font-weight: 400;
             width: 100%;
         }
 
+        .choose-first-row{
+            flex-direction: column;
+        }
+        .choose-heading{
+            width: 90%;
+        }
+        .choose-second-row{
+            width: 100%;
+        }
+         .first-row-image-one h1{
+            left: 130px;
+         }
+         .first-row-image-two h1{
+            left: 130px;
+         }
+        .second-row-image-one h1{
+            position: absolute;
+            left: 170px;
+        }
+        .second-row-image-three h1{
+            left: 170px;
+            
+        }
+        .third-row-image-one h1{
+            left: 140px;
+        }
+        .third-row-image-two h1{
+            left: 130px;
+        }
+
 
 
 
@@ -565,14 +806,22 @@ font-weight: 400;
         width: 200px;
         height: 60px;
     }
+
+
+    .extra-content{
+        grid-template-columns: 1fr;
+    }
+    .extra-one img{
+        object-fit: cover;
+    }
      .footer-heading{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         margin-bottom: 20px;
         margin-top: 10px;
      }
     .footer-links{
-        width:37%;
+        width: 47%;
         margin: 30px auto 30px;
     }
 
