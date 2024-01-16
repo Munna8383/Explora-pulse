@@ -201,7 +201,7 @@ margin-bottom: 30px;
 .destination-text h1{
     color: #131318;
 font-size: 2.8rem;
-font-weight: 800;
+font-weight: 700;
 margin-bottom: 20px;
 
 }
@@ -692,6 +692,9 @@ padding: 40px 10px;
         .destination-first-row{
             flex-direction: column;
         }
+
+    
+
         .first-row-image-one{
             width: 90%;
             margin: 0 auto;
@@ -707,6 +710,9 @@ padding: 40px 10px;
         .first-row-image-two img{
             width: 100%;
         }
+        .first-row-image-one h1{
+            font-size: 2rem;
+        }
         
         .destination-second-row{
             flex-direction: column;
@@ -719,6 +725,9 @@ padding: 40px 10px;
         }
         .second-row-image-one img{
             width: 100%;
+        }
+        .second-row-image-one h1{
+            font-size: 2rem;
         }
 
         .second-row-image-two{
@@ -737,6 +746,9 @@ padding: 40px 10px;
             width: 100%;
             object-fit: cover;
         }
+        .second-row-image-three h1{
+            font-size: 2rem;
+        }
 
         .destination-third-row{
             flex-direction: column;
@@ -748,6 +760,9 @@ padding: 40px 10px;
         }
         .third-row-image-one img{
             width: 100%;
+        }
+        .third-row-image-one h1{
+            font-size: 1.8rem;
         }
 
         .third-row-image-two{
@@ -786,6 +801,7 @@ padding: 40px 10px;
         }
         .third-row-image-two h1{
             left: 130px;
+            font-size: 1.7rem;
         }
 
 
@@ -807,7 +823,7 @@ padding: 40px 10px;
         padding: 10px 35px;
     }
     .newsletter-form button{
-        padding: 10px 85px;
+        padding: 10px 80px;
     }
     .save{
         width: 200px;
