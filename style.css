@@ -642,7 +642,7 @@ padding: 40px 10px;
 
 
 
-/*Media Query*/
+/*Media Query for Mobile */
 @media screen and (max-width:600px){
     .nav-list ul{
         display: none;
@@ -803,6 +803,12 @@ padding: 40px 10px;
     .newsletter-picture{
         width: 90%;
     }
+    .newsletter-form input{
+        padding: 10px 35px;
+    }
+    .newsletter-form button{
+        padding: 10px 85px;
+    }
     .save{
         width: 200px;
         height: 60px;
@@ -831,4 +837,23 @@ padding: 40px 10px;
         margin: 30px auto 30px;
     }
 
+}
+
+/*Media Query For Laptop*/
+
+@media screen and (min-width:992px) and (max-width:1100px){
+    .popular-text h1{
+        font-size: 2rem;
+    }
+    .popular-text p{
+        font-size: 0.9rem;
+    }
+    .popular-text ul li{
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+    .newsletter-form{
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 }
